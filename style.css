@@ -1,0 +1,179 @@
+/*---------------Grenal Slector--------------*/
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #eee1bb;
+}
+div
+{
+    margin-left: 25px;
+}
+ul,ol{
+    padding-left: 25px;
+}
+ul li{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+ol li{
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16;
+}
+hr{
+    border: 1px solid hsl(0, 0%, 80%);
+    width: 90%;
+}
+h2{
+    font-family:"Young Serif", serif;
+    font-weight: normal;
+    color: hsl(14, 45%, 36%);
+}
+span{
+    font-weight: 700;
+    color: rgb(101, 90, 90);
+    font-family: "Outfit", sans-serif;
+}
+
+/*---------------Grenal Slector--------------*/
+.contaner
+{
+    background-color: #fff;
+    width: 37%;
+    height: 100%;
+    margin: 70px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.title{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.title span
+{
+    font-family:"Young Serif", serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+header p{
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+/*----------------End of header-----------------*/
+
+/*----------------Start Section 1---------------*/
+
+/*-------------start list_1--------------------*/
+.list_Preparation_time{
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.list_Preparation_time h2{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+
+.list_Preparation_time ul li::marker
+{
+    color:hsl(332, 51%, 32%) ;
+    font-size: 10px;
+}
+.list_Preparation_time span{
+    font-weight: 700;
+    color: rgb(101, 90, 90);
+    font-family: "Outfit", sans-serif;
+}
+/*-------------End list_1--------------------*/
+
+/*-------------start list_2--------------------*/
+
+.Ingredients ul li{
+    font-family: "Outfit", sans-serif;
+    font-size: 400;
+    color: gray;
+}
+.Ingredients ul li::marker
+{
+    color: hsl(14, 45%, 36%);
+    font-size: 10px;
+}
+/*----------------End Section 1---------------*/
+
+/*----------------Start Section 2---------------*/
+.Instructions ol li::marker
+{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+/*----------------End Section 2---------------*/
+.Final_section p{
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+td{
+    border-bottom: 1px solid rgb(164, 163, 163);
+    padding-bottom: 10px;
+}
+.last{
+    border: none;
+}
+table{
+    width: 100%;
+    border-collapse:separate ;
+    border-spacing: 0 10px;
+}
+td:first-child{
+    font-family: "Outfit", sans-serif;
+    color: grey;
+}
+td:nth-child(2){
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+}
+
+/*------------------Screen---------------------*/
+/*Scren phone*/
+@media (max-width: 768px) {
+    .contaner{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .img{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
